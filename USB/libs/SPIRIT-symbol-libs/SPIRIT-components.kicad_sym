@@ -22032,7 +22032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:1-line-tvs-choke-XDFN6"
+		(property "Footprint" "SPIRIT-footprints:1-channel-TVS-choke-XDFN6_1P2X1P2_ONS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22209,7 +22209,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:tvs-choke-2-channel"
+		(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22536,7 +22536,6 @@
 			(pin power_in line
 				(at 2.54 -15.24 90)
 				(length 5.08)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
