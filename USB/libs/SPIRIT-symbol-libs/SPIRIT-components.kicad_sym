@@ -22041,7 +22041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22051,6 +22051,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMI8141"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22219,7 +22228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -22327,7 +22336,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "EMI8142MUTAG"
+		(property "MPN" "EMI8142MUTAG"
 			(at 0 0 0)
 			(effects
 				(font
