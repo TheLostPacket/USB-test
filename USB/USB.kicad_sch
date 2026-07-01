@@ -12080,376 +12080,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TVS-choke-2-pair-EMI8142MUTAG_1"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "TVS-choke-2-pair-EMI8142MUTAG"
-				(at -10.16 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "ON Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "XDFN-10 ON Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MPN" "EMI8142MUTAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "On Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "TVS-choke-2-pair-EMI8142MUTAG_1_0_0"
-				(rectangle
-					(start -10.16 10.16)
-					(end 10.16 -10.16)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 5.08)
-					(name "IN_1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 5.08 0)
-					(length 5.08)
-					(name "IN_1−"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 0 0)
-					(length 5.08)
-					(name "IN_2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
-					(length 5.08)
-					(name "IN_2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 7.62 180)
-					(length 5.08)
-					(name "OUT_1+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 5.08 180)
-					(length 5.08)
-					(name "OUT_1-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 0 180)
-					(length 5.08)
-					(name "OUT_2+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -2.54 180)
-					(length 5.08)
-					(name "OUT_2-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TVS-choke-2-pair-EMI8142MUTAG_1_1_0"
-				(pin power_in line
-					(at -2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -12931,12 +12561,6 @@
 		(uuid "5fe203ad-a8c4-41e1-958a-273483936e67")
 	)
 	(junction
-		(at 309.88 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6560d52d-af89-4ed1-bc5d-5f09acddf4da")
-	)
-	(junction
 		(at 76.2 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12961,18 +12585,6 @@
 		(uuid "aada32ee-1457-4156-8add-794ec1deed2d")
 	)
 	(junction
-		(at 309.88 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab4e3aeb-f111-4fa3-814e-4fbf0cfbd83d")
-	)
-	(junction
-		(at 309.88 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2d5069a-c4f8-409e-be3d-ac6e30fb2060")
-	)
-	(junction
 		(at 313.69 289.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12983,12 +12595,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e43ea2a0-13f2-4046-a977-8ec13ada26c1")
-	)
-	(junction
-		(at 309.88 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb9d4fb1-918f-4df6-8dd3-b834c7c4e24c")
 	)
 	(no_connect
 		(at 251.46 289.56)
@@ -13190,16 +12796,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 162.56) (xy 312.42 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "291932d3-90c0-42dd-9be7-0cb3747ec192")
-	)
-	(wire
-		(pts
 			(xy 116.84 288.29) (xy 121.92 288.29)
 		)
 		(stroke
@@ -13217,26 +12813,6 @@
 			(type default)
 		)
 		(uuid "2c12648d-a1a5-4c91-bfd3-a990811bc02d")
-	)
-	(wire
-		(pts
-			(xy 309.88 173.99) (xy 309.88 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fbf1c3f-0a79-4f15-882e-d4c9d7e9af20")
-	)
-	(wire
-		(pts
-			(xy 309.88 142.24) (xy 309.88 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31347027-59fe-4139-ba35-00bba8428619")
 	)
 	(wire
 		(pts
@@ -13267,16 +12843,6 @@
 			(type default)
 		)
 		(uuid "32fc0d4f-1668-4626-bd7d-f322b9db87c5")
-	)
-	(wire
-		(pts
-			(xy 309.88 153.67) (xy 309.88 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36710ac9-2b76-417b-aac4-d52da8dbe0ed")
 	)
 	(wire
 		(pts
@@ -13590,16 +13156,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 175.26) (xy 309.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74fb0078-7b09-4c66-81cb-b75ca2205933")
-	)
-	(wire
-		(pts
 			(xy 68.58 285.75) (xy 76.2 285.75)
 		)
 		(stroke
@@ -13637,36 +13193,6 @@
 			(type default)
 		)
 		(uuid "7d00f9a7-0037-4e2a-9ea6-31cd90cfd3ee")
-	)
-	(wire
-		(pts
-			(xy 309.88 151.13) (xy 312.42 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4b045a-f482-4167-bddd-4ecade5b82c3")
-	)
-	(wire
-		(pts
-			(xy 309.88 163.83) (xy 309.88 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ed3ea2a-17f3-4754-8495-36a65f12dd3e")
-	)
-	(wire
-		(pts
-			(xy 312.42 153.67) (xy 309.88 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8080e03b-55b3-448e-9683-ac6994a367ac")
 	)
 	(wire
 		(pts
@@ -13780,16 +13306,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 152.4) (xy 309.88 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91fc82ed-47dc-4c8f-9b9b-923f2ce04198")
-	)
-	(wire
-		(pts
 			(xy 142.24 177.8) (xy 144.78 177.8)
 		)
 		(stroke
@@ -13797,16 +13313,6 @@
 			(type default)
 		)
 		(uuid "92a29f4e-8596-4b87-9b75-3d3d66437912")
-	)
-	(wire
-		(pts
-			(xy 312.42 143.51) (xy 309.88 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9383ae4a-2bf3-4810-8d4e-610448ef50b4")
 	)
 	(wire
 		(pts
@@ -14040,16 +13546,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 175.26) (xy 309.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd0fbb1-36c5-403f-8000-4ab20fc794c1")
-	)
-	(wire
-		(pts
 			(xy 360.68 316.23) (xy 379.73 316.23)
 		)
 		(stroke
@@ -14077,16 +13573,6 @@
 			(type default)
 		)
 		(uuid "d183fd67-3368-47b6-8a35-bacc35b54c1c")
-	)
-	(wire
-		(pts
-			(xy 312.42 165.1) (xy 309.88 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f93d43-1cc6-49fa-b725-d50af107cec0")
 	)
 	(wire
 		(pts
@@ -14160,26 +13646,6 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 140.97) (xy 312.42 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7bf975a-2dd4-4da1-b704-7ac9b0cf9f03")
-	)
-	(wire
-		(pts
-			(xy 309.88 143.51) (xy 309.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84b69b3-f146-4528-9454-d0909c1e032a")
-	)
-	(wire
-		(pts
 			(xy 304.8 163.83) (xy 309.88 163.83)
 		)
 		(stroke
@@ -14227,26 +13693,6 @@
 			(type default)
 		)
 		(uuid "f2d3ddca-74c8-403c-88a1-8949a604bbe2")
-	)
-	(wire
-		(pts
-			(xy 309.88 172.72) (xy 312.42 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f342dfd6-f942-4577-b0e4-a6d31da41dae")
-	)
-	(wire
-		(pts
-			(xy 309.88 165.1) (xy 309.88 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f547e509-fe8c-4c5a-84cc-e4112a0d0ca1")
 	)
 	(wire
 		(pts
@@ -20683,50 +20129,6 @@
 			)
 		)
 	)
-	(global_label "RX1+"
-		(shape bidirectional)
-		(at 312.42 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0be4303e-7937-49f9-b0f4-87eb6cd45c4c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.7779 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX2-"
-		(shape bidirectional)
-		(at 312.42 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0d573643-ee02-49a3-ae9e-3b9a7a399bcb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.4755 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SYS D+"
 		(shape bidirectional)
 		(at 276.86 160.02 0)
@@ -20767,6 +20169,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSTX2-"
+		(shape bidirectional)
+		(at 309.88 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11f36a9c-4b6c-41c1-9af6-70b3e0f348ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.3545 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -20850,6 +20274,28 @@
 		(uuid "15f63e18-271e-4506-849b-b63b4c5361d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.3961 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSTX2+"
+		(shape bidirectional)
+		(at 309.88 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18c808e2-f057-4f09-8906-d9d4366163fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.3545 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20943,28 +20389,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX2+"
-		(shape bidirectional)
-		(at 312.42 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2081b73c-6644-4414-9c80-253dd74ba94a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.4755 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -21444,50 +20868,6 @@
 		(uuid "48711e21-b5a2-4271-99b1-980c2d8d950c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 284.3204 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX2+"
-		(shape bidirectional)
-		(at 312.42 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5290f40b-74d3-48e3-863a-75ae17adab1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.7779 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX1+"
-		(shape bidirectional)
-		(at 312.42 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "54012fe1-9e0b-4f63-996b-b45a15b4c43f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.4755 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22113,6 +21493,28 @@
 			)
 		)
 	)
+	(global_label "SSTR2+"
+		(shape bidirectional)
+		(at 309.88 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "891bf77a-42b9-4492-ba99-cca5b4e870de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.415 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AUDIO_MCLK"
 		(shape output)
 		(at 73.66 147.32 180)
@@ -22456,28 +21858,6 @@
 		(uuid "a392a68f-81cb-4d92-8a9d-33991cf9b68c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 123.7789 298.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RX1-"
-		(shape bidirectional)
-		(at 312.42 140.97 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a8ae7756-70bb-497a-a32c-f0dc6af6794f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.7779 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22993,50 +22373,6 @@
 			)
 		)
 	)
-	(global_label "RX2-"
-		(shape bidirectional)
-		(at 312.42 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e13f52d5-2588-4669-bd6f-e97720afae2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.7779 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TX1-"
-		(shape bidirectional)
-		(at 312.42 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1ba5652-d84e-4031-853a-72cf4042dc8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.4755 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+f"
 		(shape bidirectional)
 		(at 194.31 351.79 0)
@@ -23099,6 +22435,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SSTR2-"
+		(shape bidirectional)
+		(at 309.88 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2c3bdc6-9229-4f7a-a9e3-a5fa08ac856f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 321.415 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -25769,229 +25127,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:TVS-choke-2-pair-EMI8142MUTAG")
-		(at 184.15 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5da15aaf-e2c0-4738-986f-324627a31116")
-		(property "Reference" "U5"
-			(at 184.15 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TVS-choke-2-pair-EMI8142MUTAG"
-			(at 184.15 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "XDFN-10 ON Semiconductor"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EMI8142MUTAG"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EMI8142MUTAG"
-			(at 184.15 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "ddd9178d-5fe8-4cf5-b7b0-b912b70d0dfa")
-		)
-		(pin "8"
-			(uuid "3c1f42ae-bf2f-41bf-b796-357d8d9b2ac5")
-		)
-		(pin "9"
-			(uuid "c39f1fa7-5036-485f-a0fc-2ee8bcb1902e")
-		)
-		(pin "4"
-			(uuid "4f24ab30-5701-49f0-bcf3-2af8d56d853d")
-		)
-		(pin "3"
-			(uuid "b90c1217-4f51-4b6c-ae91-a1749d4aa010")
-		)
-		(pin "1"
-			(uuid "d7356686-7281-4fee-9886-2a7f7108c385")
-		)
-		(pin "2"
-			(uuid "967e2e34-9ecb-42f3-931c-08c28d7c0ee3")
-		)
-		(pin "6"
-			(uuid "74e60dee-2a69-48a3-a97e-c92f34e44bc0")
-		)
-		(pin "10"
-			(uuid "357ce2cc-7598-4c37-bbc4-cece5fd32ba9")
-		)
-		(pin "5"
-			(uuid "ab9f590e-67be-4653-9266-3d89f9d3ab1d")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SPIRIT-components:HD3SS460RHRR")
 		(at 400.05 308.61 0)
 		(unit 1)
@@ -26001,7 +25136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebcddb1-b6a9-41ab-93fc-dbb38334f94a")
-		(property "Reference" "U7"
+		(property "Reference" "MUX1"
 			(at 400.05 270.51 0)
 			(effects
 				(font
@@ -26136,7 +25271,7 @@
 		(instances
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "U7")
+					(reference "MUX1")
 					(unit 1)
 				)
 			)
@@ -26384,6 +25519,219 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SPIRIT-components:TVS-choke-2-pair-EMI8142MUTAG")
+		(at 184.15 281.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bfe2d83-c9db-46ad-8fa1-fc50975b2b29")
+		(property "Reference" "TVS1"
+			(at 184.15 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TVS-choke-2-pair-EMI8142MUTAG"
+			(at 184.15 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "XDFN-10 ON Semiconductor"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "0"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMI8142MUTAG"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Semiconductor"
+			(at 184.15 281.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "39aee6f7-1a12-4fc8-8c29-70f69510283a")
+		)
+		(pin "1"
+			(uuid "ff322d95-b7b4-4797-a858-0821ccce5433")
+		)
+		(pin "2"
+			(uuid "44ed87a7-8510-4e99-a0c6-6a499e926f8b")
+		)
+		(pin "8"
+			(uuid "cb4bab04-25e7-448a-90b5-df3486729338")
+		)
+		(pin "5"
+			(uuid "ea22dd6f-d5f7-4e83-9164-b04730d3afa9")
+		)
+		(pin "9"
+			(uuid "28c581cf-5d12-497e-b8a6-15cc3e8cda49")
+		)
+		(pin "10"
+			(uuid "5c57d01e-04cc-4c1e-b728-bcc3af051d3d")
+		)
+		(pin "4"
+			(uuid "52a092b2-65f3-48e2-aca3-d97e4b81ff2c")
+		)
+		(pin "7"
+			(uuid "aedeeba5-bce7-4da8-8354-c3b1cb1730dc")
+		)
+		(pin "6"
+			(uuid "35a85a74-aba8-4d09-9320-6ef71b5e7448")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "TVS1")
 					(unit 1)
 				)
 			)
@@ -27487,230 +26835,6 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "TVS-choke-2-pair-EMI8142MUTAG_1")
-		(lib_id "SPIRIT-components:TVS-choke-2-pair-EMI8142MUTAG")
-		(at 184.15 281.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96548a31-821a-4554-818d-1fbed2b7126c")
-		(property "Reference" "U1"
-			(at 184.15 266.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TVS-choke-2-pair-EMI8142MUTAG"
-			(at 184.15 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ON Semiconductor"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "XDFN-10 ON Semiconductor"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "0"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EMI8142MUTAG"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "On Semiconductor"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MPN" "EMI8142MUTAG"
-			(at 184.15 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "99e77252-8100-4a3b-bbfb-8c3b1ff69c9b")
-		)
-		(pin "8"
-			(uuid "8ab1456f-39c8-4c0a-9a06-3c575e4fe6a7")
-		)
-		(pin "9"
-			(uuid "4f00d562-6fef-466d-b0c3-f330bef1f0d6")
-		)
-		(pin "4"
-			(uuid "6b62878e-e3db-4c0b-bc58-1b3ba311e1b5")
-		)
-		(pin "3"
-			(uuid "0ae0ca20-24d7-4fcc-9d3c-d4ac501765d9")
-		)
-		(pin "1"
-			(uuid "4431df08-26b3-4b9e-986f-50208820055c")
-		)
-		(pin "2"
-			(uuid "9aef936d-ec6f-48e6-9657-a8669d82fe2e")
-		)
-		(pin "6"
-			(uuid "2b16e49b-5d21-46db-b8ac-73ac4af57560")
-		)
-		(pin "10"
-			(uuid "51116661-a4df-4a58-91c0-297e6ed41c07")
-		)
-		(pin "5"
-			(uuid "319b6310-bda4-4bf4-a5d6-5b21348b0843")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -29038,6 +28162,219 @@
 		)
 	)
 	(symbol
+		(lib_id "SPIRIT-components:TVS-choke-2-pair-EMI8142MUTAG")
+		(at 184.15 320.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd1ff955-2987-4ae7-ab2a-f165845a8cac")
+		(property "Reference" "TVS2"
+			(at 184.15 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TVS-choke-2-pair-EMI8142MUTAG"
+			(at 184.15 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SPIRIT-footprints:2-channel-TVS-chokeXDFN10_2P2X1P3_ONS"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/emi8141-d.pdf"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "4 Line Common Mode Choke Surface Mount  100mA DCR 6Ohm (Typ)"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "XDFN-10 ON Semiconductor"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=eda"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "0.5mm"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "0"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EMI8142MUTAG/Onsemi/view-part/?ref=snap"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EMI8142MUTAG"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "On Semiconductor"
+			(at 184.15 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "211c177d-1b28-4c53-9db8-49f01b390a42")
+		)
+		(pin "3"
+			(uuid "3e9998ce-907a-4f05-a345-d3487bc8da21")
+		)
+		(pin "4"
+			(uuid "5655ab07-eda6-474a-9582-a8282c1f3604")
+		)
+		(pin "6"
+			(uuid "40371b12-fa89-47a3-819a-233163d4a516")
+		)
+		(pin "10"
+			(uuid "ba88fe80-670a-4c70-aac5-9179296b7939")
+		)
+		(pin "2"
+			(uuid "2af95ed5-03d0-41dd-acb5-84d46ffb6cd6")
+		)
+		(pin "1"
+			(uuid "9b17da28-d7c3-44ae-89e6-739f8bd243a6")
+		)
+		(pin "9"
+			(uuid "30ea574d-1f83-4af4-a77c-ede6c3b58e05")
+		)
+		(pin "5"
+			(uuid "3a8d2e22-d55a-430c-ae3d-3e9a93628f17")
+		)
+		(pin "8"
+			(uuid "ccff1664-7fe1-481b-a9ab-18073a4bbd87")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "TVS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_13")
 		(lib_id "power:GND")
 		(at 210.82 149.86 270)
@@ -29854,7 +29191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea70dc39-adf2-4e25-a71a-548e09e2e7bb")
-		(property "Reference" "U4"
+		(property "Reference" "TVS3"
 			(at 182.88 345.44 0)
 			(effects
 				(font
@@ -29927,7 +29264,7 @@
 		(instances
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "U4")
+					(reference "TVS3")
 					(unit 1)
 				)
 			)
