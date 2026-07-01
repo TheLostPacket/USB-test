@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "HD3SS460RHRR ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.6 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "6b3d8676-6022-48d2-bdc8-1a692b436d2e")
@@ -168,6 +168,17 @@
 		(fill yes)
 		(layer "F.Paste")
 		(uuid "7e8fba44-81e1-4e28-b5f5-4a8dea8929d4")
+	)
+	(fp_circle
+		(center 0.5 1.576393)
+		(end 0.7 1.676393)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "12c9b2f3-a45d-42af-87cc-f757bc55dffa")
 	)
 	(fp_line
 		(start -1.800001 -2.799999)
@@ -412,13 +423,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "55af9f5d-0b23-44f8-8b6a-c9466b0950a2")
 	)
-	(pad "29" smd rect
-		(at 0 0)
-		(size 2.000001 4)
-		(layers "F.Cu" "F.Mask")
-		(uuid "a3e1d4cd-264c-44dd-9eb9-ca7017e3ec22")
-	)
-	(pad "V" thru_hole circle
+	(pad "29" thru_hole circle
 		(at -0.750001 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -426,7 +431,7 @@
 		(remove_unused_layers no)
 		(uuid "351fae4e-0754-41da-93ce-7a3bfc3f4888")
 	)
-	(pad "V" thru_hole circle
+	(pad "29" thru_hole circle
 		(at 0 -1.749999)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -434,7 +439,13 @@
 		(remove_unused_layers no)
 		(uuid "38e0f64b-754d-4905-b5f6-a6257cc41552")
 	)
-	(pad "V" thru_hole circle
+	(pad "29" smd rect
+		(at 0 0)
+		(size 2.000001 4)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a3e1d4cd-264c-44dd-9eb9-ca7017e3ec22")
+	)
+	(pad "29" thru_hole circle
 		(at 0 1.749999)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
@@ -442,7 +453,7 @@
 		(remove_unused_layers no)
 		(uuid "42e9e8a6-1896-4711-b782-0595adf18d58")
 	)
-	(pad "V" thru_hole circle
+	(pad "29" thru_hole circle
 		(at 0.750001 0)
 		(size 0.499999 0.499999)
 		(drill 0.2032)
