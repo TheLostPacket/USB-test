@@ -8893,6 +8893,106 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SPIRIT-components:2-pin-header"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2-pin-header_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2-pin-header_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SPIRIT-components:ESDA25L"
 			(pin_names
 				(offset 0.254)
@@ -11627,121 +11727,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SPIRIT-components:USBC_capacitor_GRM033R60J334ME90D"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 3.8109 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "USBC_capacitor_GRM033R60J334ME90D"
-				(at 0 -5.0885 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USBC_capacitor_GRM033R60J334ME90D_0_0"
-				(rectangle
-					(start 0 -1.9069)
-					(end 0.635 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.9069 -1.9069)
-					(end 2.54 1.905)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SPIRIT-components:usb-polarity-TUSB321RWBR"
 			(pin_names
 				(offset 0.254)
@@ -12288,7 +12273,7 @@
 	)
 	(text "Type-C plug\nposition 2 (H);\nposition 1 (L)."
 		(exclude_from_sim no)
-		(at 304.038 294.386 0)
+		(at 312.928 302.006 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -12297,7 +12282,7 @@
 		)
 		(uuid "5a75e370-194c-4249-8224-104ab02e17b0")
 	)
-	(text "TODO\n- add terminal block to power this (wago, 3V3, 5V, GND, DEBEUG?) // JUST SOLDER PADS\n- add patreons to silkscreen\n- remove unused labels\n- add holes in PCB for THT pins\n- add 'lil chamfer to indicate orientation\n- rename the diff pair nets to something with +-\n- remove coupling caps as per cm5 datasheet"
+	(text "TODO\n- add terminal block to power this (wago, 3V3, 5V, GND, DEBEUG?) // JUST SOLDER PADS\n- add patreons to silkscreen\n- remove unused labels\nx- add pin header symbol for polarity flipper\nx- add 'lil chamfer to indicate orientation\nx- rename the diff pair nets to something with +-\nx- remove coupling caps as per cm5 datasheet"
 		(exclude_from_sim no)
 		(at 326.136 33.782 0)
 		(effects
@@ -12531,12 +12516,6 @@
 		(uuid "31c51cca-e49b-4f0b-a953-6adae33b4f2b")
 	)
 	(junction
-		(at 81.28 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38a29670-9a23-4ce5-942b-83ec24a3e4cb")
-	)
-	(junction
 		(at 144.78 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12579,13 +12558,7 @@
 		(uuid "927cba0a-6a72-4251-8197-82fa3359aee4")
 	)
 	(junction
-		(at 81.28 318.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aada32ee-1457-4156-8add-794ec1deed2d")
-	)
-	(junction
-		(at 313.69 289.56)
+		(at 322.58 297.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d547b126-ac32-43c0-ae11-603c01604dcb")
@@ -12693,6 +12666,16 @@
 			(type default)
 		)
 		(uuid "08320895-3dba-41f5-977a-782ab869923b")
+	)
+	(wire
+		(pts
+			(xy 311.15 289.56) (xy 302.26 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcfcfd3-ddc9-4cbd-bdc1-3a86e34c9ce9")
 	)
 	(wire
 		(pts
@@ -12876,16 +12859,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 173.99) (xy 309.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9704d3-04e0-4258-ba33-cd937423c590")
-	)
-	(wire
-		(pts
 			(xy 356.87 280.67) (xy 365.76 280.67)
 		)
 		(stroke
@@ -12893,6 +12866,26 @@
 			(type default)
 		)
 		(uuid "3fcbdcc8-8c56-40ec-aa69-f2a4bf82a630")
+	)
+	(wire
+		(pts
+			(xy 302.26 281.94) (xy 334.01 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4123325c-da87-4caa-ae0d-921c6b191f23")
+	)
+	(wire
+		(pts
+			(xy 308.61 273.05) (xy 308.61 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d1749d-bc19-479d-8b00-98bf1071aa53")
 	)
 	(wire
 		(pts
@@ -12936,7 +12929,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 142.24) (xy 297.18 142.24)
+			(xy 289.56 142.24) (xy 302.26 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12996,7 +12989,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 152.4) (xy 309.88 152.4)
+			(xy 297.18 152.4) (xy 302.26 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13126,16 +13119,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 313.69) (xy 81.28 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731624dc-6b55-4ab7-b960-556a30fa7ee3")
-	)
-	(wire
-		(pts
 			(xy 73.66 127) (xy 81.28 127)
 		)
 		(stroke
@@ -13176,7 +13159,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 278.13) (xy 314.96 278.13)
+			(xy 322.58 285.75) (xy 323.85 285.75)
 		)
 		(stroke
 			(width 0)
@@ -13203,6 +13186,16 @@
 			(type default)
 		)
 		(uuid "8256df01-101c-4066-b378-9f22f3541ce0")
+	)
+	(wire
+		(pts
+			(xy 334.01 273.05) (xy 334.01 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d95f38-e94a-40a6-91ed-8c345309b541")
 	)
 	(wire
 		(pts
@@ -13386,7 +13379,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 173.99) (xy 297.18 173.99)
+			(xy 289.56 173.99) (xy 302.26 173.99)
 		)
 		(stroke
 			(width 0)
@@ -13396,7 +13389,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 278.13) (xy 313.69 279.4)
+			(xy 322.58 285.75) (xy 322.58 287.02)
 		)
 		(stroke
 			(width 0)
@@ -13406,7 +13399,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 289.56) (xy 302.26 289.56)
+			(xy 311.15 297.18) (xy 311.15 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a981fe1f-f8e2-4605-893a-b86d6d5a8308")
+	)
+	(wire
+		(pts
+			(xy 322.58 297.18) (xy 311.15 297.18)
 		)
 		(stroke
 			(width 0)
@@ -13463,16 +13466,6 @@
 			(type default)
 		)
 		(uuid "bce88c47-02a0-4120-8dfa-4da7f370871c")
-	)
-	(wire
-		(pts
-			(xy 304.8 142.24) (xy 309.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdcc852a-bf26-4bf4-9957-ad2a9bc66ee7")
 	)
 	(wire
 		(pts
@@ -13536,7 +13529,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 287.02) (xy 313.69 289.56)
+			(xy 302.26 279.4) (xy 308.61 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8cc8a52-baa8-437b-923c-4396c7e93849")
+	)
+	(wire
+		(pts
+			(xy 322.58 294.64) (xy 322.58 297.18)
 		)
 		(stroke
 			(width 0)
@@ -13616,7 +13619,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 163.83) (xy 297.18 163.83)
+			(xy 289.56 163.83) (xy 302.26 163.83)
 		)
 		(stroke
 			(width 0)
@@ -13643,16 +13646,6 @@
 			(type default)
 		)
 		(uuid "e2eb7c86-36ef-4761-89d8-0db94be8016e")
-	)
-	(wire
-		(pts
-			(xy 304.8 163.83) (xy 309.88 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaa10ed0-9a59-4dc5-9de2-98474acd05a4")
 	)
 	(wire
 		(pts
@@ -13726,7 +13719,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 289.56) (xy 313.69 289.56)
+			(xy 323.85 297.18) (xy 322.58 297.18)
 		)
 		(stroke
 			(width 0)
@@ -20021,28 +20014,6 @@
 	)
 	(global_label "CC1"
 		(shape bidirectional)
-		(at 302.26 279.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05e2177e-7777-4e98-b140-463910b723ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.106 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CC1"
-		(shape bidirectional)
 		(at 73.66 198.12 180)
 		(fields_autoplaced yes)
 		(effects
@@ -20175,7 +20146,7 @@
 	)
 	(global_label "SSTX2-"
 		(shape bidirectional)
-		(at 309.88 163.83 0)
+		(at 302.26 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20185,7 +20156,7 @@
 		)
 		(uuid "11f36a9c-4b6c-41c1-9af6-70b3e0f348ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.3545 163.83 0)
+			(at 313.7345 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20285,7 +20256,7 @@
 	)
 	(global_label "SSTX2+"
 		(shape bidirectional)
-		(at 309.88 173.99 0)
+		(at 302.26 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20295,7 +20266,7 @@
 		)
 		(uuid "18c808e2-f057-4f09-8906-d9d4366163fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.3545 173.99 0)
+			(at 313.7345 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20527,7 +20498,7 @@
 	)
 	(global_label "3V3B"
 		(shape input)
-		(at 314.96 278.13 0)
+		(at 323.85 285.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20537,7 +20508,7 @@
 		)
 		(uuid "30b32a65-a43b-4d41-ba93-cd261c4cb66a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 322.7228 278.13 0)
+			(at 331.6128 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21517,7 +21488,7 @@
 	)
 	(global_label "SSTR2+"
 		(shape bidirectional)
-		(at 309.88 152.4 0)
+		(at 302.26 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21527,7 +21498,7 @@
 		)
 		(uuid "891bf77a-42b9-4492-ba99-cca5b4e870de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.415 152.4 0)
+			(at 313.795 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21660,6 +21631,28 @@
 		(uuid "8c338427-5085-4465-adf1-5bd1102d2e99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 369.9488 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC2"
+		(shape bidirectional)
+		(at 334.01 267.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8da8c90d-3669-4948-a14a-556001a0c5af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.164 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21869,7 +21862,7 @@
 	)
 	(global_label "MUX POL"
 		(shape bidirectional)
-		(at 314.96 289.56 0)
+		(at 323.85 297.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21879,7 +21872,7 @@
 		)
 		(uuid "a3476c4c-a8a7-45c8-a800-97ee14096603")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 327.6441 289.56 0)
+			(at 336.5341 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22175,6 +22168,28 @@
 			)
 		)
 	)
+	(global_label "CC1"
+		(shape bidirectional)
+		(at 308.61 267.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1c0e8b9-49ee-4858-9624-2fcc7e4c5039")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.764 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TX1f-"
 		(shape bidirectional)
 		(at 199.39 284.48 0)
@@ -22259,28 +22274,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CC2"
-		(shape bidirectional)
-		(at 302.26 281.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca1b729c-3396-40c7-a6dc-2ab33215c1d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 310.106 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -22419,7 +22412,7 @@
 	)
 	(global_label "SSTR2-"
 		(shape bidirectional)
-		(at 309.88 142.24 0)
+		(at 302.26 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22429,7 +22422,7 @@
 		)
 		(uuid "e2c3bdc6-9229-4f7a-a9e3-a5fa08ac856f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.415 142.24 0)
+			(at 313.795 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22704,43 +22697,44 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:USBC_capacitor_GRM033R60J334ME90D")
-		(at 299.72 152.4 0)
+		(lib_id "SPIRIT-components:2-pin-header")
+		(at 316.23 270.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07a82c14-2a1e-41f9-9a11-20b9e80487e5")
-		(property "Reference" "C2"
-			(at 300.99 146.05 0)
+		(uuid "0405d0a0-b6eb-429e-848c-f949ed69dc7a")
+		(property "Reference" "J2"
+			(at 322.58 269.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0.33 µF coupling cap"
-			(at 300.99 148.59 0)
+		(property "Value" "~"
+			(at 322.58 271.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 299.72 152.4 0)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 316.23 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 299.72 152.4 0)
+			(at 316.23 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22749,7 +22743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 299.72 152.4 0)
+			(at 316.23 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,16 +22751,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b8618608-7b62-473b-bcd5-63e120e348d2")
-		)
 		(pin "1"
-			(uuid "b647db78-38a1-47ca-b16a-44925becf032")
+			(uuid "d61e0987-ff4d-42dd-87e6-792783c23e9d")
+		)
+		(pin "2"
+			(uuid "7e1b8295-d8fa-41af-b500-7837411f0ab8")
 		)
 		(instances
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "C2")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -23780,6 +23774,76 @@
 		)
 	)
 	(symbol
+		(lib_id "SPIRIT-components:2-pin-header")
+		(at 341.63 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d6c7a52-5f11-459b-b654-8481dcdd3e89")
+		(property "Reference" "J3"
+			(at 347.98 269.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 347.98 271.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
+			(at 341.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6496116-4581-4e14-be83-91ade37ff337")
+		)
+		(pin "1"
+			(uuid "2ea9c097-44d4-4136-9f12-59e23740ac1f")
+		)
+		(instances
+			(project "USB"
+				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 351.79 331.47 270)
 		(unit 1)
@@ -24646,75 +24710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SPIRIT-components:USBC_capacitor_GRM033R60J334ME90D")
-		(at 299.72 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e05fcb4-dd9a-4c73-b877-1d6aac71c390")
-		(property "Reference" "C3"
-			(at 300.99 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.33 µF coupling cap"
-			(at 300.99 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 299.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4a4627e0-884a-4142-b38c-7e71099b76b6")
-		)
-		(pin "1"
-			(uuid "a5ae4e6f-e69d-4e83-8718-f237e8ef7d72")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_39")
 		(lib_id "power:GND")
 		(at 81.28 119.38 270)
@@ -25279,7 +25274,7 @@
 	)
 	(symbol
 		(lib_id "SPIRIT-components:1K-05W-0805-RES_ERJP06J102V")
-		(at 313.69 283.21 90)
+		(at 322.58 290.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25288,7 +25283,7 @@
 		(fields_autoplaced yes)
 		(uuid "61fbaf50-6cf4-4297-b56b-728879401c14")
 		(property "Reference" "R1"
-			(at 310.134 283.972 0)
+			(at 319.024 291.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25298,7 +25293,7 @@
 			)
 		)
 		(property "Value" "1K-05W-0805"
-			(at 316.23 283.2099 90)
+			(at 325.12 290.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25307,7 +25302,7 @@
 			)
 		)
 		(property "Footprint" "SPIRIT-footprints:0805-resistor"
-			(at 308.102 282.702 0)
+			(at 316.992 290.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25317,7 +25312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 283.21 0)
+			(at 322.58 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25326,7 +25321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 283.21 0)
+			(at 322.58 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25335,7 +25330,7 @@
 			)
 		)
 		(property "PARTREV" "3/1/2020"
-			(at 305.054 282.194 0)
+			(at 313.944 289.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25345,7 +25340,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 322.834 281.432 0)
+			(at 331.724 289.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25355,7 +25350,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.6 mm"
-			(at 303.276 285.496 0)
+			(at 312.166 293.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25365,7 +25360,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic"
-			(at 324.612 291.592 0)
+			(at 333.502 299.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25384,75 +25379,6 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:USBC_capacitor_GRM033R60J334ME90D")
-		(at 299.72 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "657c9e73-26fd-4565-bf19-0c397fed4a45")
-		(property "Reference" "C1"
-			(at 300.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.33 µF coupling cap"
-			(at 300.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 299.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d74577a1-7c82-4517-b926-97a5db63c728")
-		)
-		(pin "1"
-			(uuid "deeb869c-c3c6-4b8e-b1a7-fbbb06f4f6cc")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -28435,75 +28361,6 @@
 			(project "USB"
 				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SPIRIT-components:USBC_capacitor_GRM033R60J334ME90D")
-		(at 299.72 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2fbe87d-96d3-4506-b007-7dd38a42685d")
-		(property "Reference" "C4"
-			(at 300.99 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.33 µF coupling cap"
-			(at 300.99 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SPIRIT-footprints:USBC_capacitor_CAPC0603X33N"
-			(at 299.72 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 299.72 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "71a89778-8bad-4c31-8386-3b49c518ade7")
-		)
-		(pin "1"
-			(uuid "e89c6795-6d75-4dcb-97ff-1a61d4f1ef01")
-		)
-		(instances
-			(project "USB"
-				(path "/96ef50de-934d-4dd6-87fd-3fc40e345030"
-					(reference "C4")
 					(unit 1)
 				)
 			)
