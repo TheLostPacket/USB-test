@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 1.0,
+          "gap": 0.2,
           "via_gap": 1.0,
-          "width": 0.1
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -196,7 +196,8 @@
         0.0,
         0.1,
         0.15,
-        0.2
+        0.2,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
